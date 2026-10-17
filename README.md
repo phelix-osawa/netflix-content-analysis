@@ -45,6 +45,10 @@ jupyter lab
 
 Open the notebooks under `notebooks/` and run their cells in order. Most analysis notebooks load the cleaned CSV from `data/processed/`; run the data-cleaning notebook first if you need to regenerate that file from the raw input.
 
+## Shared helpers
+
+[`src/helpers.py`](./src/helpers.py) provides common dataset loading and country/genre credit preparation functions used by the notebooks. This keeps file paths and multi-credit handling consistent across analyses.
+
 ## Current snapshot highlights
 
 - Movies: 6,126 (69.7%); TV Shows: 2,664 (30.3%).
